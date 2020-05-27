@@ -31,7 +31,7 @@ return 0;
 int main()
 {clrscr();
 int b;
-cout<<"enter number of elements";
+cout<<"enter number of elements please";
 cin>>b;
 bubblesort(b);
 display(b);
