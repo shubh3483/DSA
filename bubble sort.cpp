@@ -1,9 +1,8 @@
 #include<iostream.h>
 #include<conio.h>
-#include<vector>;
-#define max 10
+#define max 20
 int a[max];
-void bubblesort(int n)
+void bubble(int n)
 {int i,j,t;
 cout<<"enter elements";
 for(i=0;i<n;i++)
@@ -33,7 +32,7 @@ int main()
 int b;
 cout<<"enter number of elements please";
 cin>>b;
-bubblesort(b);
+bubble(b);
 display(b);
 getch();
 return 0;
