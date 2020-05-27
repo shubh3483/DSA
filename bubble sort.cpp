@@ -3,7 +3,7 @@
 #include<vector>;
 #define max 10
 int a[max];
-void bubble(int n)
+void bubblesort(int n)
 {int i,j,t;
 cout<<"enter elements";
 for(i=0;i<n;i++)
@@ -33,7 +33,7 @@ int main()
 int b;
 cout<<"enter number of elements";
 cin>>b;
-bubble(b);
+bubblesort(b);
 display(b);
 getch();
 return 0;
