@@ -1,5 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
+#include<vector>;
 #define max 10
 int a[max];
 void bubble(int n)
